@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 
 data = pd.read_csv("creditcard.csv")
 
-X = data.drop("Class", axis=1)   # Class = Fraud (1) / Not Fraud (0)
+X = data.drop("Class", axis=1) 
 y = data["Class"]
 
 
